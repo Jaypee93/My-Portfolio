@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../style";
+import { jag } from "../assets";
 
 
 const Hero = () => {
@@ -20,11 +21,11 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Jonathan Person</span>
           </h1>
           <p className=" text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100">
-            Professional basketball player and front-end Developer. Constantly
+            Professional basketball player and Full-stack Developer. Constantly
             learning and challenging myself to be the best developer I can
-            possibily be . <br /> <br /> <br />
-            React | Javascript | Node | MongoDB{" "}
+            possibily be. 
           </p>
+          <img src={jag} alt={jag} className="w-[500px]" />
         </div>
       </div>
     </section>

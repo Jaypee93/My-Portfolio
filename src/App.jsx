@@ -7,7 +7,7 @@ import herobg from "./assets/herobg.png"
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary' style={{ backgroundImage: `url(${herobg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+      <div className='relative z-0 bg-primary' style={{ backgroundImage: `url(${herobg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat',  }}>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />

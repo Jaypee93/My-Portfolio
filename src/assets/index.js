@@ -37,8 +37,12 @@ import restaurant from './restaurant.png'
 import techover from './techover-logo.png'
 import basketball from './basketball.png'
 import developer from './developer1.png'
+import marvel from './Marvel.png'
+import jag from './IMG_2585.png'
 
 export {
+  jag,
+  marvel,
   developer,
   basketball,
   techover,

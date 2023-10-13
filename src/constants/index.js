@@ -28,7 +28,8 @@ import {
     restaurant,
     techover,
     basketball,
-    developer
+    developer,
+    marvel
   } from "../assets";
   
   export const navLinks = [
@@ -174,28 +175,7 @@ import {
         "Find information about all the worlds countries. Capital, spoken language, citizens and more",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "API",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: flag,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "My very own spotify clone.",
-      tags: [
-        {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -203,7 +183,28 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: flag,
+      source_code_link: "https://celebrated-crostata-fe54fa.netlify.app/",
+    },
+    {
+      name: "Spotify Clone",
+      description:
+        "My very own spotify clone.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -211,7 +212,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Restaurant Menu",
       description:
         "An example of how a website for your restaurant could look like.",
       tags: [
@@ -220,12 +221,33 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: restaurant,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://scintillating-llama-1bc685.netlify.app/",
+    },
+    {
+      name: "Marvel Characters",
+      description:
+        "Dive in to the Marvel universe and find out all the details about your favourite character",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"API",
+          color:"green-text-gradient"
+        }
+      ],
+      image: marvel,
+      source_code_link: "https://sweet-narwhal-4b45b7.netlify.app/",
     },
   ];
   
