@@ -1,36 +1,45 @@
 import {
-    mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     flag,
     spotify,
     restaurant,
     techover,
     basketball,
     developer,
-    marvel
+    marvel,
+    marcus,
+    insta,
+    linkedin,
+    github
   } from "../assets";
+
+  export const socialmedia = [
+    {
+      name: 'Instagram',
+      image: insta,
+      source_code_link: 'https://www.instagram.com/jpeerson/'
+    },
+    { 
+      name: 'LinkedIn',
+      image: linkedin,
+      source_code_link: 'https://www.linkedin.com/in/jonathan-person-1a3a65242/'
+    },
+    {
+      name: 'Github',
+      image: github,
+      source_code_link: 'https://github.com/Jaypee93'
+    }
+  
+  ]
   
   export const navLinks = [
     {
@@ -51,10 +60,6 @@ import {
     {
       title: "Web Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
@@ -144,35 +149,20 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Jonathan is an exceptional student in web development. His energy and independent nature is truly impressive. Jonathan is extremely goal-targeted and shows a strong desire to master the subject put in front of him. He demostrates this by being able to finish the education in the same speed as other students despite being a professional basketball player in Romania. Jonathan is without a doubt an upcoming star in web development and a role model for other students.",
+      name: "Marcus Pousette ",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Techover",
+      image: marcus,
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+
   ];
   
   const projects = [
     {
       name: "The Worlds Countries",
       description:
-        "Find information about all the worlds countries. Capital, spoken language, citizens and more",
+        "Find information about all the worlds countries. Capital, spoken language, citizens and more.",
       tags: [
         {
           name: "React",
@@ -193,7 +183,7 @@ import {
     {
       name: "Spotify Clone",
       description:
-        "My very own spotify clone.",
+        "My very own spotify clone. The most challenging project for me so far, but the one im the most proud of. Link to Live demo coming soon.",
       tags: [
         {
           name: "React",
@@ -209,12 +199,12 @@ import {
         },
       ],
       image: spotify,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Jaypee93",
     },
     {
       name: "Restaurant Menu",
       description:
-        "An example of how a website for your restaurant could look like.",
+        "An example of how a website for your restaurant could look like. Simple but beutiful layout.",
       tags: [
         {
           name: "React",
@@ -231,7 +221,7 @@ import {
     {
       name: "Marvel Characters",
       description:
-        "Dive in to the Marvel universe and find out all the details about your favourite character",
+        "Take a dive into the Marvel universe and find out all the details about your favourite character. ",
       tags: [
         {
           name: "React",
