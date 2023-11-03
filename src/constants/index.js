@@ -151,7 +151,7 @@ import {
       testimonial:
         "Jonathan is an exceptional student in web development. His energy and independent nature is truly impressive. Jonathan is extremely goal-targeted and shows a strong desire to master the subject put in front of him. He demostrates this by being able to finish the education in the same speed as other students despite being a professional basketball player in Romania. Jonathan is without a doubt an upcoming star in web development and a role model for other students.",
       name: "Marcus Pousette ",
-      designation: "CFO",
+      designation: "Head Of Academy",
       company: "Techover",
       image: marcus,
     },
